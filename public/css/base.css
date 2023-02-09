@@ -162,7 +162,7 @@ header > nav{
 
 header .textos-header{
     display: flex;
-    height: 430px;
+    height: 50%;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -640,7 +640,9 @@ li a{
         margin-right: -20px;
     }
     .nav-visible{
-        left: 0;
+        position: sticky;
+        margin-left: 20px;
+        height: auto;
     }
     nav > a{
         margin-bottom: 5px;
