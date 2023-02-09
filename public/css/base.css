@@ -14,7 +14,12 @@ body{
 
 body::-webkit-scrollbar{
     background-color: rgba(29, 37, 113, 0.435);
-    color: rgba(195, 55, 99, 0.65);
+    width: 15px;
+    border-radius:4px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(195, 55, 99, 0.435);
+    border-radius: 6px;
 }
 
 .contenedor{
@@ -632,7 +637,7 @@ li a{
         text-align: center;
         justify-content: start;
         left: 100%;
-        margin-left: 300px;
+        margin-right: -20px;
     }
     .nav-visible{
         left: 0;
