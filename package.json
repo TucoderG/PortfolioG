@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": ["dist"],
   "scripts": {
     "start": "node index.js",
     "dev": "node-dev index.js",
@@ -10,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TucoderG/PortfolioG.git"
+    "url": "https://tucoderg.github.io/PortfolioG/"
   },
   "author": "TucoderG",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TucoderG/PortfolioG/issues"
+    "url": "https://tucoderg.github.io/PortfolioG/"
   },
-  "homepage": "https://github.com/TucoderG/PortfolioG#readme",
+  "homepage": "https://tucoderg.github.io/PortfolioG/",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
