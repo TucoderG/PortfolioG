@@ -181,11 +181,11 @@ header .textos-header{
 
 }
 
-.textos-header h1 span{
+.textos-header h2 span{
     color: rgb(212, 212, 212);
 }
 
-.textos-header h1 span.cursor{
+.textos-header h2 span.cursor{
     display: inline-block;
     margin-left: 0.1rem;
     animation: blink 1s infinite;
@@ -194,7 +194,7 @@ header .textos-header{
     
 }
 
-.textos-header h1 span.cursor.typing {
+.textos-header h2 span.cursor.typing {
     animation: none;
     
 }
