@@ -44,7 +44,7 @@ const registerForm = async (req, res) =>{
             from: 'NoReplyPortfolioG@gmail.com',
             to: email,
             subject: "Confirmacion de cuenta",
-            html: `<p>Link para la validacion: <br> <a href='http://localhost:3000/confirmarCuenta/${user.tokenConfirm}'>Ingrese aquí</a></p>`
+            html: `<p>Link para la validacion: <br> <a href='https://tucoderg.github.io/PortfolioG/confirmarCuenta/${user.tokenConfirm}'>Ingrese aquí</a></p>`
         };
         var transporter = nodemailer.createTransport({
             service: 'gmail',
@@ -161,7 +161,7 @@ const recovPass = async (req, res) =>{
             from: 'NoReplyPortfolioG@gmail.com',
             to: email,
             subject: "Recuperar Contraseña",
-            html: `<p>Link para cambiar su contraseña: <br> <a href='http://localhost:3000/recover/${user.tokenConfirm}'>Ingrese aquí</a></p>`
+            html: `<p>Link para cambiar su contraseña: <br> <a href='https://tucoderg.github.io/PortfolioG/recover/${user.tokenConfirm}'>Ingrese aquí</a></p>`
         };
         var transporter = nodemailer.createTransport({
             service: 'gmail',

@@ -1,4 +1,4 @@
-const urlParams = document.baseURI.replace('http://localhost:3000/recover', '');
+const urlParams = document.baseURI.replace('https://tucoderg.github.io/PortfolioG/recover', '');
 const form = document.getElementById('formulario');
 
 if(urlParams){
