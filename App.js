@@ -1,6 +1,6 @@
 const express = require('express');
 const session = require('express-session');
-// const MongoStore = require("connect-mongo");
+const MongoStore = require("connect-mongo");
 const { body } = require('express-validator');
 const mongoSanitize = require('express-mongo-sanitize');
 
@@ -39,10 +39,9 @@ var sess = {
     resave: false,                   //autoguardado de sesiones
     saveUninitialized: false,        //peticion de guardado de sesiones
     name: process.env.NOMBRESECRETO,
-    // sotre: MongoStore.create({
-    //     clientPromise: clientDB,
-    //     dbName: process.env.BASENAME,
-    // }),
+    sotre: MongoStore.create({
+        clientPromise: clientDB,
+    }),
     //cookie: {secure: true, maxAge: 30 * 24 * 30 * 60 * 60 * 1000} // el secure: true funciona solo con https, en desarrollo localhost no es https
 }
 app.use(session(sess));
