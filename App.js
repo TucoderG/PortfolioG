@@ -63,7 +63,7 @@ app.use(mongoSanitize());
 
 app.use((req, res, next) =>{
     res.locals.csrfToken = req.csrfToken();
-    res.locals.mensajes = req.flash('mesajes');
+    res.locals.mesajes = req.flash('mesajes');
     next();
 })
 
