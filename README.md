@@ -7,4 +7,4 @@ Una vez tenga su cuenta registrada en el sistema (MongoDB) podra ingresar a la p
 Este proyecto cuenta con modulos de protección ante ataques de inyección NoSqL, CSRF, Encriptado de contraseña para ser más segura utilizando bcrypt.
 Los tokens de confirmacion de cuenta y recuperar contraseña son brindados mediante un codigo único implementando el modulo uuid.
 
-Por tema de que github pages solo permite paginas estaticas no me es posible subir el proyecto completo pero les dejo el codigo para que vean mi trabajo.
+https://tucoderg.onrender.com
